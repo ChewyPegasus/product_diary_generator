@@ -1,0 +1,30 @@
+Пастила бело-розовая:
+  unit: "г"
+  price: 4
+  mass: 250
+  variation_percent: {mass: 10, price: 10}
+Торт медовик:
+  unit: "г"
+  price: 5.35
+  mass: 300
+  variation_percent: {mass: 10, price: 10}
+Конфеты агар-нура:
+  unit: "г"
+  price: 2.1
+  mass: 50
+  variation_percent: {mass: 10, price: 10}
+Пирожное бисквитное со сгущёнкой:
+  unit: "г"
+  price: 0.71
+  mass: 32
+  variation_percent: {mass: 10, price: 10}
+Батончик мюсли вишня-ананас:
+  unit: "г"
+  price: 0.85
+  mass: 33
+  variation_percent: {mass: 10, price: 10}
+Батончик мюсли клюква:
+  unit: "г"
+  price: 0.85
+  mass: 33
+  variation_percent: {mass: 10, price: 10}

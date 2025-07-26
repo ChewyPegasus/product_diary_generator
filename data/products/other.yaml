@@ -1,0 +1,15 @@
+Ванилин:
+  unit: "г"
+  price: 0.28
+  mass: 1.5
+  variation_percent: { mass: 10, price: 10 }
+Хот-дог Баварский:
+  unit: "г"
+  price: 5.59
+  mass: 250
+  variation_percent: { mass: 10, price: 10 }
+Борщ холодный в ведре:
+  unit: "г"
+  price: 5.29
+  mass: 900
+  variation_percent: { mass: 20, price: 20 }

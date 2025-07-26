@@ -1,3 +1,13 @@
+Лаваш тонкий:
+  unit: "г"
+  price: 2.98
+  mass: 300
+  variation_percent: { mass: 10, price: 10 }
+Хлеб зерновой:
+  unit: "г"
+  price: 3.2
+  mass: 500
+  variation_percent: { mass: 10, price: 10 }
 Макароны:
   unit: "кг"
   price: 100

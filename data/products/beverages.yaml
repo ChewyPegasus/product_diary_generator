@@ -1,21 +1,25 @@
-Чай:
-  unit: "шт"
-  price: 150
-  mass: 1
-  variation_percent:
-    mass: 10
-    price: 20
-Кофе:
-  unit: "шт"
-  price: 400
-  mass: 1
-  variation_percent:
-    mass: 10
-    price: 25
+Чай чёрный листовой:
+  unit: "г"
+  price: 8
+  mass: 100
+  variation_percent: {mass: 30, price: 20}
+Чай чёрный пакетированный:
+  unit: "г"
+  price: 6
+  mass: 100
+  variation_percent: {mass: 50, price: 30}
+Кофе молотый:
+  unit: "г"
+  price: 35
+  mass: 400
+  variation_percent: {mass: 50, price: 30}
 Сок яблочный:
   unit: "л"
-  price: 130
+  price: 3
   mass: 1.0
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 50, price: 50}
+Сок апельсиновый:
+  unit: "л"
+  price: 6
+  mass: 1.0
+  variation_percent: {mass: 20, price: 30}

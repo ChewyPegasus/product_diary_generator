@@ -1,3 +1,38 @@
+Филе сельди:
+  unit: "г"
+  price: 8.79
+  mass: 500
+  variation_percent:
+    mass: 20
+    price: 20
+Намазка мясная со вкусом хамона:
+  unit: "г"
+  price: 3.69
+  mass: 150
+  variation_percent:
+    mass: 0
+    price: 10
+Намазка мясная со вкусом трюфеля:
+  unit: "г"
+  price: 3.65
+  mass: 150
+  variation_percent:
+    mass: 0
+    price: 10
+Паста с лососем:
+  unit: "г"
+  price: 2.69
+  mass: 140
+  variation_percent:
+    mass: 0
+    price: 10
+Паштет Утиный:
+  unit: "г"
+  price: 1.69
+  mass: 180
+  variation_percent:
+    mass: 0
+    price: 10
 Куриное филе:
   unit: "кг"
   price: 450

@@ -1,3 +1,23 @@
+Сметана 14%:
+  unit: "г"
+  price: 2.45
+  mass: 400
+  variation_percent: { mass: 15, price: 15 }
+Йогурт с лесными ягодами YOGURU:
+  unit: "г"
+  price: 2.45
+  mass: 400
+  variation_percent: { mass: 0, price: 15 }
+Йогурт с клубникой YOGURU:
+  unit: "г"
+  price: 1.75
+  mass: 400
+  variation_percent: { mass: 0, price: 15 }
+Сыр сулугуни 40%:
+  unit: "г"
+  price: 8.3
+  mass: 500
+  variation_percent: { mass: 50, price: 50 }
 Молоко:
   unit: "л"
   price: 80
@@ -18,11 +38,6 @@
   price: 700
   mass: 0.18
   variation_percent: { mass: 10, price: 15 }
-Сметана:
-  unit: "кг"
-  price: 250
-  mass: 0.3
-  variation_percent: { mass: 15, price: 15 }
 Йогурт:
   unit: "шт"
   price: 50

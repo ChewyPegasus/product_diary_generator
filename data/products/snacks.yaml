@@ -1,0 +1,7 @@
+Арахис жареный:
+  unit: "г"
+  price: 3.59
+  mass: 200
+  variation_percent:
+    mass: 50
+    price: 50
