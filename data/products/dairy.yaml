@@ -1,0 +1,30 @@
+Молоко:
+  unit: "л"
+  price: 80
+  mass: 1.0
+  variation_percent: { mass: 20, price: 10 }
+Яйца:
+  unit: "шт"
+  price: 10
+  mass: 1
+  variation_percent: { mass: 20, price: 10 }
+Сыр:
+  unit: "кг"
+  price: 800
+  mass: 0.2
+  variation_percent: { mass: 25, price: 20 }
+Масло сливочное:
+  unit: "кг"
+  price: 700
+  mass: 0.18
+  variation_percent: { mass: 10, price: 15 }
+Сметана:
+  unit: "кг"
+  price: 250
+  mass: 0.3
+  variation_percent: { mass: 15, price: 15 }
+Йогурт:
+  unit: "шт"
+  price: 50
+  mass: 1
+  variation_percent: { mass: 10, price: 20 }

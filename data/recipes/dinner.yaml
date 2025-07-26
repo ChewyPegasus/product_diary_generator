@@ -1,0 +1,29 @@
+- name: "Макароны с курицей и сыром"
+  ingredients:
+    - { product: "Макароны", amount: 0.25, unit: "кг" }
+    - { product: "Куриное филе", amount: 0.2, unit: "кг" }
+    - { product: "Сыр", amount: 0.1, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.02, unit: "кг" }
+
+- name: "Жареная картошка с сосисками"
+  ingredients:
+    - { product: "Картофель", amount: 0.5, unit: "кг" }
+    - { product: "Сосиски", amount: 0.2, unit: "кг" }
+    - { product: "Лук", amount: 0.1, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.05, unit: "л" }
+
+- name: "Суп с фрикадельками"
+  ingredients:
+    - { product: "Говяжий фарш", amount: 0.3, unit: "кг" }
+    - { product: "Картофель", amount: 0.3, unit: "кг" }
+    - { product: "Морковь", amount: 0.1, unit: "кг" }
+    - { product: "Лук", amount: 0.1, unit: "кг" }
+    - { product: "Рис", amount: 0.05, unit: "кг" }
+
+- name: "Плов с курицей"
+  ingredients:
+    - { product: "Рис", amount: 0.3, unit: "кг" }
+    - { product: "Куриное филе", amount: 0.4, unit: "кг" }
+    - { product: "Морковь", amount: 0.2, unit: "кг" }
+    - { product: "Лук", amount: 0.2, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.1, unit: "л" }

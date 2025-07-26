@@ -1,0 +1,20 @@
+- name: "Салат из помидоров"
+  ingredients:
+    - { product: "Помидоры", amount: 0.3, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.02, unit: "л" }
+    - { product: "Соль", amount: 0.005, unit: "кг" }
+
+- name: "Рис с овощами"
+  ingredients:
+    - { product: "Рис", amount: 0.15, unit: "кг" }
+    - { product: "Морковь", amount: 0.1, unit: "кг" }
+    - { product: "Лук", amount: 0.1, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.03, unit: "л" }
+
+- name: "Макароны по-флотски"
+  ingredients:
+    - { product: "Макароны", amount: 0.2, unit: "кг" }
+    - { product: "Говяжий фарш", amount: 0.2, unit: "кг" }
+    - { product: "Лук", amount: 0.1, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.03, unit: "л" }

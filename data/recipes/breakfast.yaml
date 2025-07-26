@@ -1,0 +1,24 @@
+- name: "Гречка на завтрак"
+  ingredients:
+    - { product: "Гречка", amount: 0.15, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+    - { product: "Соль", amount: 0.005, unit: "кг" }
+
+- name: "Омлет с помидорами"
+  ingredients:
+    - { product: "Яйца", amount: 3, unit: "шт" }
+    - { product: "Молоко", amount: 0.1, unit: "л" }
+    - { product: "Помидоры", amount: 0.1, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.01, unit: "л" }
+
+- name: "Бутерброды с сыром"
+  ingredients:
+    - { product: "Хлеб", amount: 0.1, unit: "кг" }
+    - { product: "Сыр", amount: 0.05, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.02, unit: "кг" }
+
+- name: "Овсяная каша с бананом"
+  ingredients:
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Бананы", amount: 0.15, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }

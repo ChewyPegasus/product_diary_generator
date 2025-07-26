@@ -1,0 +1,28 @@
+Картофель:
+  unit: "кг"
+  price: 40
+  mass: 1.0
+  variation_percent:
+    mass: 30
+    price: 25
+Лук:
+  unit: "кг"
+  price: 35
+  mass: 0.5
+  variation_percent:
+    mass: 20
+    price: 20
+Морковь:
+  unit: "кг"
+  price: 45
+  mass: 0.5
+  variation_percent:
+    mass: 20
+    price: 20
+Помидоры:
+  unit: "кг"
+  price: 250
+  mass: 1.0
+  variation_percent:
+    mass: 30
+    price: 30

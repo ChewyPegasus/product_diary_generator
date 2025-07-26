@@ -1,0 +1,21 @@
+Чай:
+  unit: "шт"
+  price: 150
+  mass: 1
+  variation_percent:
+    mass: 10
+    price: 20
+Кофе:
+  unit: "шт"
+  price: 400
+  mass: 1
+  variation_percent:
+    mass: 10
+    price: 25
+Сок яблочный:
+  unit: "л"
+  price: 130
+  mass: 1.0
+  variation_percent:
+    mass: 10
+    price: 15

@@ -1,0 +1,21 @@
+Куриное филе:
+  unit: "кг"
+  price: 450
+  mass: 1.0
+  variation_percent:
+    mass: 25
+    price: 20
+Говяжий фарш:
+  unit: "кг"
+  price: 600
+  mass: 0.5
+  variation_percent:
+    mass: 20
+    price: 15
+Сосиски:
+  unit: "кг"
+  price: 500
+  mass: 0.4
+  variation_percent:
+    mass: 15
+    price: 15

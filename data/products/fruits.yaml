@@ -1,0 +1,21 @@
+Яблоки:
+  unit: "кг"
+  price: 120
+  mass: 1.0
+  variation_percent:
+    mass: 30
+    price: 40
+Бананы:
+  unit: "кг"
+  price: 100
+  mass: 1.0
+  variation_percent:
+    mass: 20
+    price: 25
+Апельсины:
+  unit: "кг"
+  price: 150
+  mass: 1.0
+  variation_percent:
+    mass: 20
+    price: 30
