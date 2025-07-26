@@ -3,6 +3,7 @@ import datetime
 import os
 import yaml
 import pandas as pd
+from random import getrandbits
 
 # --- Константы ---
 PRODUCTS_PATH = os.path.join("data", "products")
@@ -45,10 +46,22 @@ class FamilySimulator:
         print("--- Симуляция начинается! ---")
         print(f"Начальные запасы в кладовой: {self.pantry}\n")
 
-    def _get_random_value(self, base_value, variation_percent):
-        """Возвращает случайное значение с учетом процента отклонения."""
-        variation = base_value * (variation_percent / 100)
-        return round(random.uniform(base_value - variation, base_value + variation), 2)
+    def _get_random_values(self, base_info, var_percent):
+        """Возвращает случайные значения массы и цены с учетом процента отклонения."""
+        high = bool(getrandbits(1))
+        mass = base_info["mass"]
+        price = base_info["price"]
+        mass_variation = mass * (var_percent["mass"] / 100)
+        price_variation = price * (var_percent["price"] / 100)
+        if high:
+            return [
+                round(random.uniform(price, price + price_variation), 2),
+                round(random.uniform(mass, mass + mass_variation), 2)
+            ]
+        return [
+            round(random.uniform(price - price_variation, price), 2),
+            round(random.uniform(mass - mass_variation, mass), 2)
+        ]
 
     def consume_products(self, meal_type, current_date):
         """
@@ -123,11 +136,11 @@ class FamilySimulator:
                 
                 # Получаем случайную цену и массу
                 var_percents = base_info["variation_percent"]
-                unit_price = self._get_random_value(base_info["price"], var_percents["price"])
-                unit_mass = self._get_random_value(base_info["mass"], var_percents["mass"])
+                [unit_price, unit_mass] = self._get_random_values(base_info, var_percents)
                 
                 bought_mass = round(quantity_to_buy * unit_mass, 2)
-                total_price = round(unit_price * bought_mass, 2) if base_info['unit'] != 'шт' else round(unit_price * quantity_to_buy, 2)
+                # GOIDA * bought_mass
+                total_price = round(unit_price, 2) if base_info['unit'] != 'шт' else round(unit_price * quantity_to_buy, 2)
 
                 self.all_purchases.append({
                     "Дата": current_date,
@@ -136,7 +149,7 @@ class FamilySimulator:
                     "Сколько купили": bought_mass,
                     "Единица измерения": base_info["unit"],
                     "Сколько уплачено": total_price,
-                    "Примечание": f"цена за {base_info['unit']}: {unit_price}"
+                    "Примечание": f"цена в базе: {unit_price}"
                 })
                 # Пополняем запасы
                 self.pantry[product_name] = self.pantry.get(product_name, 0) + bought_mass
