@@ -1,25 +1,161 @@
 Чай чёрный листовой:
   unit: "г"
-  price: 8
+  price: 5.17
   mass: 100
-  variation_percent: {mass: 30, price: 20}
+  variation_percent: {mass: 10, price: 10}
+
 Чай чёрный пакетированный:
   unit: "г"
-  price: 6
-  mass: 100
-  variation_percent: {mass: 50, price: 30}
+  price: 8.20
+  mass: 18
+  variation_percent: {mass: 20, price: 15}
+
 Кофе молотый:
   unit: "г"
-  price: 35
+  price: 31.00
   mass: 400
-  variation_percent: {mass: 50, price: 30}
+  variation_percent: {mass: 20, price: 15}
+
 Сок яблочный:
   unit: "л"
-  price: 3
+  price: 3.49
   mass: 1.0
-  variation_percent: {mass: 50, price: 50}
+  variation_percent: {mass: 20, price: 20}
+
 Сок апельсиновый:
   unit: "л"
-  price: 6
+  price: 3.50
   mass: 1.0
-  variation_percent: {mass: 20, price: 30}
+  variation_percent: {mass: 10, price: 15}
+
+Чай чёрный Basilur Autumn Tea:
+  unit: "г"
+  price: 9.30
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Чай чёрный Basilur Vintage Style:
+  unit: "г"
+  price: 10.60
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Чай чёрный Basilur Frosty Evening:
+  unit: "г"
+  price: 11.50
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Кофе молотый Dallmayr Classic:
+  unit: "г"
+  price: 39.38
+  mass: 500
+  variation_percent: {mass: 20, price: 15}
+
+Кофе молотый Lavazza Oro:
+  unit: "г"
+  price: 21.30
+  mass: 250
+  variation_percent: {mass: 10, price: 10}
+
+Сок мультифруктовый:
+  unit: "л"
+  price: 3.49
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Нектар вишнёвый:
+  unit: "л"
+  price: 3.50
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Чай чёрный Teatone тропические фрукты (пакетированный):
+  unit: "г"
+  price: 8.20
+  mass: 18
+  variation_percent: {mass: 20, price: 15}
+
+Чай чёрный Teatone Сибирский (пакетированный):
+  unit: "г"
+  price: 8.20
+  mass: 18
+  variation_percent: {mass: 20, price: 15}
+
+Чай пакетированный Kings Leaf Earl Grey:
+  unit: "г"
+  price: 5.17
+  mass: 100
+  variation_percent: {mass: 20, price: 15}
+
+Сок яблочный Oasis Group:
+  unit: "л"
+  price: 3.50
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Минеральная вода (негазированная):
+  unit: "л"
+  price: 1.20
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Минеральная вода (газированная):
+  unit: "л"
+  price: 1.30
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Квас:
+  unit: "л"
+  price: 1.80
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Газированный напиток «Черноголовка Лимонад»:
+  unit: "л"
+  price: 2.00
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Тоник Chillout:
+  unit: "л"
+  price: 2.20
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Энергетик «Байкал natural energy»:
+  unit: "л"
+  price: 2.50
+  mass: 0.5
+  variation_percent: {mass: 20, price: 20}
+
+Детский сок яблоко-виноград:
+  unit: "л"
+  price: 2.00
+  mass: 0.2
+  variation_percent: {mass: 20, price: 20}
+
+Детский сок мультифрукт:
+  unit: "л"
+  price: 2.20
+  mass: 0.2
+  variation_percent: {mass: 20, price: 20}
+
+Морс клюквенный:
+  unit: "л"
+  price: 2.50
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Морс брусничный:
+  unit: "л"
+  price: 2.50
+  mass: 1.0
+  variation_percent: {mass: 20, price: 20}
+
+Вода Святой источник:
+  unit: "л"
+  price: 1.45
+  mass: 1.5
+  variation_percent: {mass: 0, price: 10}

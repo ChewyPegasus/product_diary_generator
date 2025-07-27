@@ -2,55 +2,136 @@
   unit: "г"
   price: 8.79
   mass: 500
-  variation_percent:
-    mass: 20
-    price: 20
-Намазка мясная со вкусом хамона:
+  variation_percent: { mass: 20, price: 20 }
+
+Мясная намазка хамон:
   unit: "г"
   price: 3.69
   mass: 150
-  variation_percent:
-    mass: 0
-    price: 10
-Намазка мясная со вкусом трюфеля:
+  variation_percent: { mass: 0, price: 10 }
+
+Мясная намазка трюфель:
   unit: "г"
   price: 3.65
   mass: 150
-  variation_percent:
-    mass: 0
-    price: 10
+  variation_percent: { mass: 0, price: 10 }
+
 Паста с лососем:
   unit: "г"
   price: 2.69
   mass: 140
-  variation_percent:
-    mass: 0
-    price: 10
-Паштет Утиный:
+  variation_percent: { mass: 0, price: 10 }
+
+Утиный паштет:
   unit: "г"
   price: 1.69
   mass: 180
-  variation_percent:
-    mass: 0
-    price: 10
+  variation_percent: { mass: 0, price: 10 }
+
 Куриное филе:
   unit: "кг"
-  price: 450
+  price: 12.93
   mass: 1.0
-  variation_percent:
-    mass: 25
-    price: 20
+  variation_percent: { mass: 25, price: 20 }
+
 Говяжий фарш:
   unit: "кг"
-  price: 600
+  price: 6.86
   mass: 0.5
-  variation_percent:
-    mass: 20
-    price: 15
+  variation_percent: { mass: 20, price: 15 }
+
 Сосиски:
   unit: "кг"
-  price: 500
+  price: 6.86
   mass: 0.4
-  variation_percent:
-    mass: 15
-    price: 15
+  variation_percent: { mass: 15, price: 15 }
+
+Паштет печёночный:
+  unit: "г"
+  price: 1.77
+  mass: 230
+  variation_percent: { mass: 0, price: 10 }
+
+Паштеты с жареным луком (Квинфуд):
+  unit: "г"
+  price: 4.29
+  mass: 100
+  variation_percent: { mass: 0, price: 10 }
+
+Полуфабрикат филе курицы:
+  unit: "г"
+  price: 11.10
+  mass: 850
+  variation_percent: { mass: 0, price: 15 }
+
+Грудка цыплёнка-бройлера охл.:
+  unit: "кг"
+  price: 9.39
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Голень куриная:
+  unit: "кг"
+  price: 7.99
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Бедро цыплёнка:
+  unit: "кг"
+  price: 8.99
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Крыло цыплёнка:
+  unit: "кг"
+  price: 7.69
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Митболы с творожным сыром:
+  unit: "г"
+  price: 15.76
+  mass: 350
+  variation_percent: { mass: 0, price: 20 }
+
+Котлеты сливочные с сыром:
+  unit: "г"
+  price: 8.58
+  mass: 500
+  variation_percent: { mass: 0, price: 20 }
+
+Котлеты домашние с грибами и сыром:
+  unit: "г"
+  price: 9.27
+  mass: 450
+  variation_percent: { mass: 0, price: 20 }
+
+П/ф филе индейки охл.:
+  unit: "кг"
+  price: 19.99
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Цыплёнок в ягодном маринаде:
+  unit: "кг"
+  price: 12.99
+  mass: 1.0
+  variation_percent: { mass: 25, price: 20 }
+
+Паштет салями/с зеленью/с грибами:
+  unit: "г"
+  price: 1.56
+  mass: 150
+  variation_percent: { mass: 0, price: 10 }
+
+Смалец с луком/зеленью:
+  unit: "г"
+  price: 1.38
+  mass: 250
+  variation_percent: { mass: 0, price: 10 }
+
+Паста с крилем подкопчёная:
+  unit: "г"
+  price: 3.69
+  mass: 150
+  variation_percent: { mass: 0, price: 10 }

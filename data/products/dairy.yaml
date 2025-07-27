@@ -1,45 +1,167 @@
 Сметана 14%:
   unit: "г"
-  price: 2.45
-  mass: 400
-  variation_percent: { mass: 15, price: 15 }
-Йогурт с лесными ягодами YOGURU:
+  price: 2.75
+  mass: 380
+  variation_percent: {mass: 15, price: 15}
+
+Йогурт YOGURU лесные ягоды:
   unit: "г"
-  price: 2.45
-  mass: 400
-  variation_percent: { mass: 0, price: 15 }
-Йогурт с клубникой YOGURU:
+  price: 1.81
+  mass: 310
+  variation_percent: {mass: 0, price: 15}
+
+Йогурт YOGURU клубника:
   unit: "г"
-  price: 1.75
-  mass: 400
-  variation_percent: { mass: 0, price: 15 }
+  price: 1.95
+  mass: 125
+  variation_percent: {mass: 0, price: 15}
+
 Сыр сулугуни 40%:
   unit: "г"
-  price: 8.3
+  price: 8.30
   mass: 500
-  variation_percent: { mass: 50, price: 50 }
-Молоко:
+  variation_percent: {mass: 50, price: 50}
+
+Молоко 2.5%:
   unit: "л"
-  price: 80
+  price: 2.10
   mass: 1.0
-  variation_percent: { mass: 20, price: 10 }
-Яйца:
+  variation_percent: {mass: 0, price: 10}
+
+Молоко 3.6%:
+  unit: "л"
+  price: 2.98
+  mass: 1.0
+  variation_percent: {mass: 0, price: 10}
+
+Яйца куриные:
   unit: "шт"
-  price: 10
-  mass: 1
-  variation_percent: { mass: 20, price: 10 }
-Сыр:
-  unit: "кг"
-  price: 800
+  price: 1.99
+  mass: 10
+  variation_percent: {mass: 20, price: 10}
+
+Сыр российский плавленый:
+  unit: "г"
+  price: 4.00
+  mass: 250
+  variation_percent: {mass: 25, price: 20}
+
+Масло сладкосливочное 82.5%:
+  unit: "г"
+  price: 4.50
+  mass: 180
+  variation_percent: {mass: 10, price: 15}
+
+Йогурт питьевой:
+  unit: "г"
+  price: 2.05
+  mass: 415
+  variation_percent: {mass: 10, price: 20}
+
+Творог 5%:
+  unit: "г"
+  price: 1.27
+  mass: 300
+  variation_percent: {mass: 10, price: 10}
+
+Сливки 10%:
+  unit: "г"
+  price: 6.29
+  mass: 500
+  variation_percent: {mass: 10, price: 15}
+
+Кефир 3.2%:
+  unit: "л"
+  price: 1.58
+  mass: 0.9
+  variation_percent: {mass: 10, price: 15}
+
+Кефир 1%:
+  unit: "л"
+  price: 1.50
+  mass: 0.9
+  variation_percent: {mass: 10, price: 15}
+
+Кефир 2.5%:
+  unit: "л"
+  price: 1.75
+  mass: 0.9
+  variation_percent: {mass: 10, price: 15}
+
+Творожный сырок "Белорусский" какао 23%:
+  unit: "г"
+  price: 0.92
+  mass: 45
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Беллакт" варёная сгущенка 18%:
+  unit: "г"
+  price: 0.72
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Беллакт" манго 18%:
+  unit: "г"
+  price: 0.72
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Молочная страна" Тутти-Фрутти 18%:
+  unit: "г"
+  price: 0.73
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Молочная страна" Бабл‑Гам 18%:
+  unit: "г"
+  price: 0.73
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Feelin" ваниль 20%:
+  unit: "г"
+  price: 0.85
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Feelin" манго 20%:
+  unit: "г"
+  price: 0.85
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Творожный сырок "Feelin" кокос 20%:
+  unit: "г"
+  price: 0.85
+  mass: 40
+  variation_percent: {mass: 10, price: 20}
+
+Пирожное творожное "Беллакт" черника 23%:
+  unit: "г"
+  price: 1.39
+  mass: 50
+  variation_percent: {mass: 10, price: 20}
+
+Пирожное творожное "Беллакт" вареная сгущенка 23%:
+  unit: "г"
+  price: 1.09
+  mass: 100
+  variation_percent: {mass: 10, price: 20}
+
+Паста творожная десертная кокос-миндаль 3.5%:
+  unit: "г"
+  price: 1.41
+  mass: 120
+  variation_percent: {mass: 10, price: 20}
+
+Коктейль молочный 3.5%:
+  unit: "л"
+  price: 1.60
   mass: 0.2
-  variation_percent: { mass: 25, price: 20 }
-Масло сливочное:
-  unit: "кг"
-  price: 700
-  mass: 0.18
-  variation_percent: { mass: 10, price: 15 }
-Йогурт:
-  unit: "шт"
-  price: 50
-  mass: 1
-  variation_percent: { mass: 10, price: 20 }
+  variation_percent: {mass: 10, price: 20}
+
+Творожный десерт "Весёлые внучата" ванильный 23%:
+  unit: "г"
+  price: 0.92
+  mass: 45
+  variation_percent: {mass: 10, price: 20}

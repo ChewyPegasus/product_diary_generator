@@ -1,50 +1,143 @@
 Лаваш тонкий:
   unit: "г"
-  price: 2.98
+  price: 2.89
   mass: 300
   variation_percent: { mass: 10, price: 10 }
+
 Хлеб зерновой:
   unit: "г"
-  price: 3.2
+  price: 3.20
   mass: 500
   variation_percent: { mass: 10, price: 10 }
-Макароны:
-  unit: "кг"
-  price: 100
-  mass: 0.5
+
+Макароны спагетти:
+  unit: "г"
+  price: 5.00
+  mass: 500
   variation_percent: { mass: 20, price: 10 }
+
+Макароны рожки:
+  unit: "г"
+  price: 2.50
+  mass: 900
+  variation_percent: { mass: 20, price: 10 }
+
 Гречка:
-  unit: "кг"
-  price: 90
-  mass: 0.8
+  unit: "г"
+  price: 3.27
+  mass: 700
   variation_percent: { mass: 20, price: 10 }
-Хлеб:
-  unit: "шт"
-  price: 50
-  mass: 0.5
+
+Хлеб чёрный:
+  unit: "г"
+  price: 1.80
+  mass: 500
   variation_percent: { mass: 20, price: 10 }
-Рис:
-  unit: "кг"
-  price: 120
-  mass: 0.9
+
+Хлеб белый:
+  unit: "г"
+  price: 1.70
+  mass: 500
+  variation_percent: { mass: 20, price: 20 }
+
+Хлеб Греческий:
+  unit: "г"
+  price: 2
+  mass: 500
+  variation_percent: { mass: 20, price: 20 }
+
+Рис шлифованный:
+  unit: "г"
+  price: 1.82
+  mass: 600
   variation_percent: { mass: 15, price: 15 }
+
+Рис для суши:
+  unit: "г"
+  price: 3.50
+  mass: 600
+  variation_percent: { mass: 15, price: 15 }
+
 Сахар:
   unit: "кг"
-  price: 70
+  price: 2.00
   mass: 1.0
   variation_percent: { mass: 10, price: 10 }
+
 Масло подсолнечное:
   unit: "л"
-  price: 110
+  price: 3.78
   mass: 0.9
   variation_percent: { mass: 10, price: 15 }
-Мука:
+
+Мука пшеничная:
   unit: "кг"
-  price: 60
+  price: 2.59
   mass: 2.0
   variation_percent: { mass: 10, price: 10 }
+
 Соль:
   unit: "кг"
-  price: 20
+  price: 0.20
   mass: 1.0
   variation_percent: { mass: 5, price: 5 }
+
+Овсяные хлопья:
+  unit: "г"
+  price: 1.16
+  mass: 200
+  variation_percent: { mass: 10, price: 10 }
+
+Молоко 2%:
+  unit: "л"
+  price: 1.74
+  mass: 1.0
+  variation_percent: { mass: 5, price: 5 }
+
+Кефир 1.5%:
+  unit: "л"
+  price: 1.73
+  mass: 1.0
+  variation_percent: { mass: 5, price: 5 }
+
+Масло сливочное 72%:
+  unit: "г"
+  price: 3.81
+  mass: 770
+  variation_percent: { mass: 10, price: 10 }
+
+Творог 9%:
+  unit: "г"
+  price: 1.76
+  mass: 200
+  variation_percent: { mass: 5, price: 5 }
+
+Сыр российский:
+  unit: "г"
+  price: 4.50
+  mass: 200
+  variation_percent: { mass: 10, price: 10 }
+
+Сосиски молочные:
+  unit: "г"
+  price: 4.43
+  mass: 390
+  variation_percent: { mass: 10, price: 10 }
+
+Яйца куриные:
+  unit: "шт"
+  price: 1.99
+  mass: 10
+  variation_percent: { mass: 20, price: 10 }
+
+Крупа манная:
+  unit: "кг"
+  price: 1.25
+  mass: 0.6
+  variation_percent: { mass: 20, price: 10 }
+
+Батон новый:
+  unit: "кг"
+  price: 1.59
+  mass: 0.3
+  variation_percent: { mass: 10, price: 10 }

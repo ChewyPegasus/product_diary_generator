@@ -1,14 +1,191 @@
 Лук зелёный:
   unit: "г"
-  price: 1.39
+  price: 2.50
+  mass: 70
+  variation_percent:
+    mass: 20
+    price: 20
+
+Петрушка свежая:
+  unit: "г"
+  price: 1.91
+  mass: 70
+  variation_percent:
+    mass: 20
+    price: 20
+
+Укроп:
+  unit: "г"
+  price: 1.91
+  mass: 70
+  variation_percent:
+    mass: 20
+    price: 20
+
+Руккола:
+  unit: "г"
+  price: 4.30
   mass: 60
   variation_percent:
     mass: 20
     price: 20
-Петрушка свежая:
+
+Шпинат свежий:
   unit: "г"
-  price: 1.89
-  mass: 70
+  price: 3.99
+  mass: 50
+  variation_percent:
+    mass: 20
+    price: 20
+
+Базилик:
+  unit: "г"
+  price: 6.00
+  mass: 100
+  variation_percent:
+    mass: 20
+    price: 20
+
+Кинза (кориандр):
+  unit: "г"
+  price: 4.00
+  mass: 50
+  variation_percent:
+    mass: 20
+    price: 20
+
+Мята перечная:
+  unit: "г"
+  price: 5.00
+  mass: 30
+  variation_percent:
+    mass: 20
+    price: 20
+
+Мелисса:
+  unit: "г"
+  price: 5.50
+  mass: 30
+  variation_percent:
+    mass: 20
+    price: 20
+
+Тимьян:
+  unit: "г"
+  price: 2.39
+  mass: 15
+  variation_percent:
+    mass: 20
+    price: 20
+
+Чабер:
+  unit: "г"
+  price: 5.18
+  mass: 50
+  variation_percent:
+    mass: 20
+    price: 20
+
+Салат листовой (латук):
+  unit: "г"
+  price: 2.00
+  mass: 100
+  variation_percent:
+    mass: 20
+    price: 20
+
+Салат микс (укроп+петрушка+лук):
+  unit: "г"
+  price: 2.44
+  mass: 100
+  variation_percent:
+    mass: 20
+    price: 20
+
+Щавель:
+  unit: "г"
+  price: 2.50
+  mass: 100
+  variation_percent:
+    mass: 20
+    price: 20
+
+Любисток:
+  unit: "г"
+  price: 2.50
+  mass: 100
+  variation_percent:
+    mass: 20
+    price: 20
+
+Салат Айсберг:
+  unit: "г"
+  price: 3.00
+  mass: 150
+  variation_percent:
+    mass: 20
+    price: 20
+
+Салат Лола Роса:
+  unit: "г"
+  price: 1.09
+  mass: 1
+  variation_percent:
+    mass: 20
+    price: 20
+
+Розмарин:
+  unit: "г"
+  price: 5.18
+  mass: 30
+  variation_percent:
+    mass: 20
+    price: 20
+
+Орегано:
+  unit: "г"
+  price: 5.00
+  mass: 25
+  variation_percent:
+    mass: 20
+    price: 20
+
+Шнитт-лук:
+  unit: "г"
+  price: 3.50
+  mass: 50
+  variation_percent:
+    mass: 20
+    price: 20
+
+Шпинат флора-пак:
+  unit: "г"
+  price: 4.99
+  mass: 60
+  variation_percent:
+    mass: 20
+    price: 20
+
+Лавровый лист свежий:
+  unit: "г"
+  price: 7.00
+  mass: 20
+  variation_percent:
+    mass: 20
+    price: 20
+
+Тархун (эстрагон):
+  unit: "г"
+  price: 4.00
+  mass: 20
+  variation_percent:
+    mass: 20
+    price: 20
+
+Петрушка кучерявая:
+  unit: "г"
+  price: 2.00
+  mass: 50
   variation_percent:
     mass: 20
     price: 20

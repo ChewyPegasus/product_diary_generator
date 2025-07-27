@@ -1,30 +1,155 @@
 Пастила бело-розовая:
   unit: "г"
-  price: 4
+  price: 4.00
   mass: 250
   variation_percent: {mass: 10, price: 10}
+
 Торт медовик:
   unit: "г"
   price: 5.35
   mass: 300
   variation_percent: {mass: 10, price: 10}
-Конфеты агар-нура:
+
+Конфеты агар‑нура:
   unit: "г"
-  price: 2.1
+  price: 2.10
   mass: 50
   variation_percent: {mass: 10, price: 10}
+
 Пирожное бисквитное со сгущёнкой:
   unit: "г"
   price: 0.71
   mass: 32
   variation_percent: {mass: 10, price: 10}
-Батончик мюсли вишня-ананас:
+
+Батончик мюсли вишня‑ананас:
   unit: "г"
   price: 0.85
   mass: 33
   variation_percent: {mass: 10, price: 10}
+
 Батончик мюсли клюква:
   unit: "г"
   price: 0.85
   mass: 33
+  variation_percent: {mass: 10, price: 10}
+
+Козинаки кунжутные:
+  unit: "г"
+  price: 3.50
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Козинаки подсолнечные:
+  unit: "г"
+  price: 3.20
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Чурчхела ореховая:
+  unit: "г"
+  price: 1.80
+  mass: 60
+  variation_percent: {mass: 10, price: 10}
+
+Рахат-лукум ассорти:
+  unit: "г"
+  price: 2.90
+  mass: 150
+  variation_percent: {mass: 10, price: 10}
+
+Медовый пряник:
+  unit: "г"
+  price: 1.50
+  mass: 80
+  variation_percent: {mass: 10, price: 10}
+
+Пастила яблочная:
+  unit: "г"
+  price: 3.80
+  mass: 200
+  variation_percent: {mass: 10, price: 10}
+
+Пастила фруктовая ассорти:
+  unit: "г"
+  price: 4.20
+  mass: 220
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты помадные творожные:
+  unit: "г"
+  price: 2.40
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты суфле ваниль:
+  unit: "г"
+  price: 2.60
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты суфле карамель:
+  unit: "г"
+  price: 2.60
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты «Коровка»:
+  unit: "г"
+  price: 1.20
+  mass: 50
+  variation_percent: {mass: 10, price: 10}
+
+Пирожное картошка:
+  unit: "г"
+  price: 1.10
+  mass: 40
+  variation_percent: {mass: 10, price: 10}
+
+Пирожное слоёное со сливками:
+  unit: "г"
+  price: 0.95
+  mass: 45
+  variation_percent: {mass: 10, price: 10}
+
+Пирожное с джезерье:
+  unit: "г"
+  price: 1.50
+  mass: 50
+  variation_percent: {mass: 10, price: 10}
+
+Джезерье морковное:
+  unit: "г"
+  price: 2.20
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты карамельные грильяж:
+  unit: "г"
+  price: 3.00
+  mass: 100
+  variation_percent: {mass: 10, price: 10}
+
+Пирожное медовое мини:
+  unit: "г"
+  price: 0.65
+  mass: 25
+  variation_percent: {mass: 10, price: 10}
+
+Батончик шоколадно‑ореховый:
+  unit: "г"
+  price: 1.10
+  mass: 30
+  variation_percent: {mass: 10, price: 10}
+
+Конфеты шоколадные ассорти:
+  unit: "г"
+  price: 4.50
+  mass: 200
+  variation_percent: {mass: 10, price: 10}
+  
+Пирожное эклер ванильный:
+  unit: "г"
+  price: 1.25
+  mass: 50
   variation_percent: {mass: 10, price: 10}

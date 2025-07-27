@@ -1,28 +1,161 @@
 Картофель:
   unit: "кг"
-  price: 40
+  price: 3.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 25
-Лук:
+  variation_percent: {mass: 10, price: 10}
+
+Лук репчатый:
   unit: "кг"
-  price: 35
-  mass: 0.5
-  variation_percent:
-    mass: 20
-    price: 20
+  price: 3.37
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
 Морковь:
   unit: "кг"
-  price: 45
-  mass: 0.5
-  variation_percent:
-    mass: 20
-    price: 20
+  price: 3.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
 Помидоры:
   unit: "кг"
-  price: 250
+  price: 7.29
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 10, price: 10}
+
+Огурцы грунтовые:
+  unit: "кг"
+  price: 6.93
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Огурцы гладкие:
+  unit: "кг"
+  price: 3.57
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Перец красный:
+  unit: "кг"
+  price: 17.11
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Перец желтый:
+  unit: "кг"
+  price: 17.11
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Капуста белокочанная:
+  unit: "кг"
+  price: 1.39
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Капуста пекинская:
+  unit: "кг"
+  price: 5.49
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Свекла столовая:
+  unit: "кг"
+  price: 2.14
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Сельдерей стеблевой:
+  unit: "кг"
+  price: 8.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Сельдерей корневой:
+  unit: "кг"
+  price: 12.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Баклажаны:
+  unit: "кг"
+  price: 12.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Кабачки:
+  unit: "кг"
+  price: 5.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Тыква мускатная:
+  unit: "кг"
+  price: 6.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Имбирь корень:
+  unit: "кг"
+  price: 19.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Кукуруза початки:
+  unit: "шт"
+  price: 12.79
+  mass: 0.6
+  variation_percent: {mass: 10, price: 10}
+
+Чеснок репчатый:
+  unit: "кг"
+  price: 14.67
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Редис красный:
+  unit: "кг"
+  price: 5.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Редис дайкон:
+  unit: "кг"
+  price: 8.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Перец чили зелёный:
+  unit: "шт"
+  price: 52.99
+  mass: 0.1
+  variation_percent: {mass: 10, price: 10}
+
+Томат черри (на ветке):
+  unit: "кг"
+  price: 16.93
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Томат сливовидный:
+  unit: "кг"
+  price: 7.53
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Капуста краснокочанная:
+  unit: "кг"
+  price: 7.99
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Лук красный:
+  unit: "кг"
+  price: 3.37
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
+
+Свекла (большая фасовка):
+  unit: "кг"
+  price: 4.81
+  mass: 1.0
+  variation_percent: {mass: 10, price: 10}
