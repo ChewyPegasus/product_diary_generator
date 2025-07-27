@@ -1,0 +1,130 @@
+- name: "Печёные яблоки с мёдом и орехами"
+  ingredients:
+    - { product: "Яблоки", amount: 0.3, unit: "кг" }
+    - { product: "Мёд", amount: 0.03, unit: "кг" }
+    - { product: "Грецкие орехи", amount: 0.02, unit: "кг" }
+
+- name: "Банановый смузи"
+  ingredients:
+    - { product: "Бананы", amount: 0.2, unit: "кг" }
+    - { product: "Йогурт", amount: 0.2, unit: "л" }
+    - { product: "Мёд", amount: 0.01, unit: "кг" }
+
+- name: "Овсяное печенье"
+  ingredients:
+    - { product: "Овсяные хлопья", amount: 0.2, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.1, unit: "кг" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+
+- name: "Классический чизкейк"
+  ingredients:
+    - { product: "Печенье", amount: 0.15, unit: "кг" }
+    - { product: "Сливочный сыр", amount: 0.25, unit: "кг" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+
+- name: "Шоколадный пудинг"
+  ingredients:
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Какао", amount: 0.02, unit: "кг" }
+    - { product: "Сахар", amount: 0.05, unit: "кг" }
+    - { product: "Крахмал", amount: 0.03, unit: "кг" }
+
+- name: "Мусс из творога и ягод"
+  ingredients:
+    - { product: "Творог", amount: 0.2, unit: "кг" }
+    - { product: "Ягоды", amount: 0.15, unit: "кг" }
+    - { product: "Сахар", amount: 0.05, unit: "кг" }
+
+- name: "Карамелизированные груши"
+  ingredients:
+    - { product: "Груши", amount: 0.3, unit: "кг" }
+    - { product: "Сахар", amount: 0.05, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.02, unit: "кг" }
+
+- name: "Молочный коктейль с клубникой"
+  ingredients:
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Клубника", amount: 0.15, unit: "кг" }
+    - { product: "Сахар", amount: 0.02, unit: "кг" }
+
+- name: "Творожная масса с изюмом"
+  ingredients:
+    - { product: "Творог", amount: 0.2, unit: "кг" }
+    - { product: "Изюм", amount: 0.03, unit: "кг" }
+    - { product: "Сахар", amount: 0.03, unit: "кг" }
+
+- name: "Желе из сока"
+  ingredients:
+    - { product: "Сок яблочный", amount: 0.25, unit: "л" }
+    - { product: "Желатин", amount: 0.01, unit: "кг" }
+    - { product: "Сахар", amount: 0.02, unit: "кг" }
+
+- name: "Манник"
+  ingredients:
+    - { product: "Крупа манная", amount: 0.15, unit: "кг" }
+    - { product: "Кефир", amount: 0.2, unit: "л" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+
+- name: "Сырники"
+  ingredients:
+    - { product: "Творог", amount: 0.25, unit: "кг" }
+    - { product: "Мука", amount: 0.05, unit: "кг" }
+    - { product: "Сахар", amount: 0.03, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+
+- name: "Медовые пряники"
+  ingredients:
+    - { product: "Мука", amount: 0.2, unit: "кг" }
+    - { product: "Мёд", amount: 0.05, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Сахар", amount: 0.05, unit: "кг" }
+
+- name: "Фруктовый салат"
+  ingredients:
+    - { product: "Яблоки", amount: 0.1, unit: "кг" }
+    - { product: "Бананы", amount: 0.1, unit: "кг" }
+    - { product: "Киви", amount: 0.1, unit: "кг" }
+    - { product: "Йогурт", amount: 0.05, unit: "л" }
+
+- name: "Пирог с вишней"
+  ingredients:
+    - { product: "Мука", amount: 0.25, unit: "кг" }
+    - { product: "Вишня", amount: 0.2, unit: "кг" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+
+- name: "Кекс с изюмом"
+  ingredients:
+    - { product: "Мука", amount: 0.2, unit: "кг" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+    - { product: "Изюм", amount: 0.05, unit: "кг" }
+    - { product: "Яйца", amount: 2, unit: "шт" }
+
+- name: "Мусс из манго"
+  ingredients:
+    - { product: "Манго", amount: 0.2, unit: "кг" }
+    - { product: "Сливки", amount: 0.1, unit: "л" }
+    - { product: "Сахар", amount: 0.03, unit: "кг" }
+
+- name: "Панна котта"
+  ingredients:
+    - { product: "Сливки", amount: 0.25, unit: "л" }
+    - { product: "Сахар", amount: 0.05, unit: "кг" }
+    - { product: "Желатин", amount: 0.01, unit: "кг" }
+
+- name: "Тыквенный пирог"
+  ingredients:
+    - { product: "Тыква", amount: 0.25, unit: "кг" }
+    - { product: "Мука", amount: 0.2, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Сахар", amount: 0.1, unit: "кг" }
+
+- name: "Пирожки с повидлом"
+  ingredients:
+    - { product: "Мука", amount: 0.3, unit: "кг" }
+    - { product: "Повидло", amount: 0.15, unit: "кг" }
+    - { product: "Дрожжи", amount: 0.01, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }

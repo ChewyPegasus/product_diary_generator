@@ -22,3 +22,136 @@
     - { product: "Молоко", amount: 0.3, unit: "л" }
     - { product: "Бананы", amount: 0.15, unit: "кг" }
     - { product: "Сахар", amount: 0.01, unit: "кг" }
+
+- name: "Тосты с авокадо"
+  ingredients:
+    - { product: "Хлеб", amount: 0.1, unit: "кг" }
+    - { product: "Авокадо", amount: 0.15, unit: "кг" }
+    - { product: "Соль", amount: 0.003, unit: "кг" }
+    - { product: "Лимонный сок", amount: 0.01, unit: "л" }
+
+- name: "Сырники"
+  ingredients:
+    - { product: "Творог", amount: 0.2, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Мука", amount: 0.05, unit: "кг" }
+    - { product: "Сахар", amount: 0.02, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.02, unit: "л" }
+
+- name: "Каша манная"
+  ingredients:
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Крупа манная", amount: 0.04, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+
+- name: "Яичница с колбасой"
+  ingredients:
+    - { product: "Яйца", amount: 2, unit: "шт" }
+    - { product: "Колбаса варёная", amount: 0.05, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.01, unit: "л" }
+
+- name: "Панкейки"
+  ingredients:
+    - { product: "Молоко", amount: 0.25, unit: "л" }
+    - { product: "Мука", amount: 0.15, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Сахар", amount: 0.02, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+
+- name: "Овсянка с ягодами"
+  ingredients:
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Овсяные хлопья", amount: 0.07, unit: "кг" }
+    - { product: "Ягоды", amount: 0.1, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+
+- name: "Гренки с яйцом"
+  ingredients:
+    - { product: "Хлеб", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Молоко", amount: 0.05, unit: "л" }
+    - { product: "Масло подсолнечное", amount: 0.01, unit: "л" }
+
+- name: "Банановый смузи"
+  ingredients:
+    - { product: "Бананы", amount: 0.2, unit: "кг" }
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Мёд", amount: 0.01, unit: "кг" }
+
+- name: "Булочка с маслом и вареньем"
+  ingredients:
+    - { product: "Булочка", amount: 0.07, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+    - { product: "Варенье", amount: 0.03, unit: "кг" }
+
+- name: "Каша пшённая с тыквой"
+  ingredients:
+    - { product: "Пшено", amount: 0.07, unit: "кг" }
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Тыква", amount: 0.1, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+
+- name: "Бутерброды с ветчиной"
+  ingredients:
+    - { product: "Хлеб", amount: 0.1, unit: "кг" }
+    - { product: "Ветчина", amount: 0.05, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+
+- name: "Овощной салат с яйцом"
+  ingredients:
+    - { product: "Огурцы", amount: 0.1, unit: "кг" }
+    - { product: "Помидоры", amount: 0.1, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Сметана", amount: 0.02, unit: "кг" }
+
+- name: "Творог со сметаной"
+  ingredients:
+    - { product: "Творог", amount: 0.15, unit: "кг" }
+    - { product: "Сметана", amount: 0.03, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+
+- name: "Запеканка творожная"
+  ingredients:
+    - { product: "Творог", amount: 0.2, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Сахар", amount: 0.02, unit: "кг" }
+    - { product: "Манная крупа", amount: 0.03, unit: "кг" }
+
+- name: "Мюсли с молоком"
+  ingredients:
+    - { product: "Мюсли", amount: 0.06, unit: "кг" }
+    - { product: "Молоко", amount: 0.2, unit: "л" }
+
+- name: "Варёные яйца с хлебом"
+  ingredients:
+    - { product: "Яйца", amount: 2, unit: "шт" }
+    - { product: "Хлеб", amount: 0.1, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }
+
+- name: "Рисовая каша с изюмом"
+  ingredients:
+    - { product: "Рис", amount: 0.07, unit: "кг" }
+    - { product: "Молоко", amount: 0.3, unit: "л" }
+    - { product: "Изюм", amount: 0.02, unit: "кг" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+
+- name: "Салат из фруктов"
+  ingredients:
+    - { product: "Яблоки", amount: 0.1, unit: "кг" }
+    - { product: "Бананы", amount: 0.1, unit: "кг" }
+    - { product: "Апельсины", amount: 0.1, unit: "кг" }
+    - { product: "Мёд", amount: 0.01, unit: "кг" }
+
+- name: "Овсяноблин с бананом"
+  ingredients:
+    - { product: "Овсяные хлопья", amount: 0.06, unit: "кг" }
+    - { product: "Яйца", amount: 1, unit: "шт" }
+    - { product: "Бананы", amount: 0.1, unit: "кг" }
+
+- name: "Каша кукурузная с маслом"
+  ingredients:
+    - { product: "Крупа кукурузная", amount: 0.06, unit: "кг" }
+    - { product: "Молоко", amount: 0.25, unit: "л" }
+    - { product: "Сахар", amount: 0.01, unit: "кг" }
+    - { product: "Масло сливочное", amount: 0.01, unit: "кг" }

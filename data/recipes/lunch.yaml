@@ -18,3 +18,141 @@
     - { product: "Говяжий фарш", amount: 0.2, unit: "кг" }
     - { product: "Лук", amount: 0.1, unit: "кг" }
     - { product: "Масло подсолнечное", amount: 0.03, unit: "л" }
+
+- name: "Борщ украинский"
+  ingredients:
+    - { product: "Свекла", amount: 0.1, unit: "кг" }
+    - { product: "Капуста белокочанная", amount: 0.15, unit: "кг" }
+    - { product: "Картофель", amount: 0.2, unit: "кг" }
+    - { product: "Морковь", amount: 0.07, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+    - { product: "Томатная паста", amount: 0.03, unit: "кг" }
+    - { product: "Говядина", amount: 0.2, unit: "кг" }
+
+- name: "Суп куриный с вермишелью"
+  ingredients:
+    - { product: "Куриное филе", amount: 0.15, unit: "кг" }
+    - { product: "Картофель", amount: 0.15, unit: "кг" }
+    - { product: "Морковь", amount: 0.05, unit: "кг" }
+    - { product: "Лук", amount: 0.03, unit: "кг" }
+    - { product: "Вермишель", amount: 0.04, unit: "кг" }
+
+- name: "Щи из свежей капусты"
+  ingredients:
+    - { product: "Капуста белокочанная", amount: 0.2, unit: "кг" }
+    - { product: "Картофель", amount: 0.15, unit: "кг" }
+    - { product: "Морковь", amount: 0.05, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Пюре с котлетой"
+  ingredients:
+    - { product: "Картофель", amount: 0.25, unit: "кг" }
+    - { product: "Молоко", amount: 0.05, unit: "л" }
+    - { product: "Фарш мясной", amount: 0.15, unit: "кг" }
+    - { product: "Яйца", amount: 0.5, unit: "шт" }
+    - { product: "Хлеб", amount: 0.02, unit: "кг" }
+
+- name: "Макароны по-флотски"
+  ingredients:
+    - { product: "Макароны", amount: 0.15, unit: "кг" }
+    - { product: "Фарш мясной", amount: 0.15, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Плов с курицей"
+  ingredients:
+    - { product: "Рис", amount: 0.15, unit: "кг" }
+    - { product: "Курица", amount: 0.2, unit: "кг" }
+    - { product: "Морковь", amount: 0.1, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Гречка с подливой"
+  ingredients:
+    - { product: "Гречка", amount: 0.15, unit: "кг" }
+    - { product: "Фарш мясной", amount: 0.15, unit: "кг" }
+    - { product: "Томатная паста", amount: 0.02, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Куриные голени с картошкой"
+  ingredients:
+    - { product: "Куриные голени", amount: 0.3, unit: "кг" }
+    - { product: "Картофель", amount: 0.3, unit: "кг" }
+    - { product: "Масло подсолнечное", amount: 0.02, unit: "л" }
+
+- name: "Рагу овощное с мясом"
+  ingredients:
+    - { product: "Кабачки", amount: 0.2, unit: "кг" }
+    - { product: "Картофель", amount: 0.2, unit: "кг" }
+    - { product: "Морковь", amount: 0.1, unit: "кг" }
+    - { product: "Мясо говядины", amount: 0.2, unit: "кг" }
+
+- name: "Суп из чечевицы"
+  ingredients:
+    - { product: "Чечевица", amount: 0.1, unit: "кг" }
+    - { product: "Морковь", amount: 0.05, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+    - { product: "Томаты", amount: 0.1, unit: "кг" }
+
+- name: "Суп-пюре из тыквы"
+  ingredients:
+    - { product: "Тыква", amount: 0.3, unit: "кг" }
+    - { product: "Сливки", amount: 0.1, unit: "л" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Куриное филе с рисом"
+  ingredients:
+    - { product: "Куриное филе", amount: 0.2, unit: "кг" }
+    - { product: "Рис", amount: 0.15, unit: "кг" }
+
+- name: "Овощной суп"
+  ingredients:
+    - { product: "Картофель", amount: 0.15, unit: "кг" }
+    - { product: "Морковь", amount: 0.07, unit: "кг" }
+    - { product: "Капуста белокочанная", amount: 0.1, unit: "кг" }
+    - { product: "Лук", amount: 0.03, unit: "кг" }
+
+- name: "Котлеты из индейки с гречкой"
+  ingredients:
+    - { product: "Фарш индейки", amount: 0.2, unit: "кг" }
+    - { product: "Гречка", amount: 0.15, unit: "кг" }
+    - { product: "Яйца", amount: 0.5, unit: "шт" }
+
+- name: "Жаркое из свинины"
+  ingredients:
+    - { product: "Свинина", amount: 0.25, unit: "кг" }
+    - { product: "Картофель", amount: 0.2, unit: "кг" }
+    - { product: "Морковь", amount: 0.05, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Гречка с грибами"
+  ingredients:
+    - { product: "Гречка", amount: 0.15, unit: "кг" }
+    - { product: "Грибы шампиньоны", amount: 0.2, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+
+- name: "Суп харчо"
+  ingredients:
+    - { product: "Говядина", amount: 0.2, unit: "кг" }
+    - { product: "Рис", amount: 0.05, unit: "кг" }
+    - { product: "Лук", amount: 0.05, unit: "кг" }
+    - { product: "Томатная паста", amount: 0.03, unit: "кг" }
+
+- name: "Спагетти с томатным соусом"
+  ingredients:
+    - { product: "Спагетти", amount: 0.15, unit: "кг" }
+    - { product: "Томаты", amount: 0.2, unit: "кг" }
+    - { product: "Чеснок", amount: 0.01, unit: "кг" }
+    - { product: "Масло оливковое", amount: 0.01, unit: "л" }
+
+- name: "Тефтели с подливой"
+  ingredients:
+    - { product: "Фарш мясной", amount: 0.2, unit: "кг" }
+    - { product: "Рис", amount: 0.05, unit: "кг" }
+    - { product: "Томатная паста", amount: 0.02, unit: "кг" }
+    - { product: "Лук", amount: 0.03, unit: "кг" }
+
+- name: "Овощи на пару с курицей"
+  ingredients:
+    - { product: "Куриное филе", amount: 0.2, unit: "кг" }
+    - { product: "Брокколи", amount: 0.15, unit: "кг" }
+    - { product: "Морковь", amount: 0.1, unit: "кг" }
+    - { product: "Кабачки", amount: 0.1, unit: "кг" }
