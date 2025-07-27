@@ -107,8 +107,8 @@ class FamilySimulator:
 
     def receive_products(self, current_date):
         """Симулирует получение продуктов не через покупку (подарок, свой урожай)."""
-        # Событие происходит не каждый день, а с вероятностью 1 к 5
-        if random.randint(1, 5) == 1:
+        # Событие происходит не каждый день, а с вероятностью 1 к 10
+        if random.randint(1, 10) == 1:
             product_to_receive = random.choice(list(self.products_db.keys()))
             base_info = self.products_db[product_to_receive]
             # Получаем небольшое количество продукта
@@ -123,10 +123,14 @@ class FamilySimulator:
 
     def go_shopping(self, current_date):
         """Симулирует поход в магазин за продуктами, которых мало или нет."""
-        for product_name, base_info in self.products_db.items():
-            # Условие для покупки: продукта мало ИЛИ это импульсивная покупка (шанс 1 из 10)
+        # Выбираем 3-5 случайных товаров для проверки в этот день
+        products_to_check = random.sample(list(self.products_db.keys()), k=random.randint(20, 30))
+        
+        for product_name in products_to_check:
+            base_info = self.products_db[product_name]
+            # Условие для покупки: продукта мало ИЛИ это импульсивная покупка
             is_low_on_stock = self.pantry.get(product_name, 0) < base_info["mass"] * 2
-            is_impulse_buy = random.randint(1, 10) == 1
+            is_impulse_buy = random.randint(1, 20) == 1
 
             if is_low_on_stock or is_impulse_buy:
                 if is_impulse_buy and not is_low_on_stock:
