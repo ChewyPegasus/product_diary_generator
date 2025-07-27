@@ -188,4 +188,4 @@
   unit: "г"
   price: 3.39
   mass: 450
-  variation_percent: {mass: 10, price: 10}
+  variation_percent: {mass: 0, price: 10}
