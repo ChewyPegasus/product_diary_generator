@@ -165,3 +165,27 @@
   price: 0.92
   mass: 45
   variation_percent: {mass: 10, price: 20}
+
+Сыр Голландский 45%:
+  unit: "кг"
+  price: 8.55
+  mass: 0.45
+  variation_percent: {mass: 10, price: 20}
+
+Коктейль молочный ТОП черника 2%:
+  unit: "г"
+  price: 2.25
+  mass: 450
+  variation_percent: {mass: 0, price: 10}
+
+Коктейль молочный ТОП шоколад 2%:
+  unit: "г"
+  price: 2.19
+  mass: 450
+  variation_percent: {mass: 0, price: 10}
+
+Майонез КАМАКО Кремлевский 70%:
+  unit: "г"
+  price: 3.39
+  mass: 450
+  variation_percent: {mass: 10, price: 10}

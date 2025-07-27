@@ -2,153 +2,136 @@
   unit: "г"
   price: 3.59
   mass: 200
-  variation_percent:
-    mass: 50
-    price: 50
+  variation_percent: {mass: 50, price: 50}
+
 Фисташки солёные:
   unit: "г"
   price: 5.49
   mass: 150
-  variation_percent:
-    mass: 30
-    price: 40
+  variation_percent: {mass: 30, price: 40}
+
 Чипсы картофельные:
   unit: "г"
   price: 2.19
   mass: 150
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
+
 Сухарики ржаные с чесноком:
   unit: "г"
   price: 1.49
   mass: 90
-  variation_percent:
-    mass: 10
-    price: 20
+  variation_percent: {mass: 10, price: 20}
+
 Кукурузные палочки сладкие:
   unit: "г"
   price: 0.99
   mass: 150
-  variation_percent:
-    mass: 15
-    price: 15
+  variation_percent: {mass: 15, price: 15}
+
 Ореховый микс:
   unit: "г"
   price: 6.99
   mass: 200
-  variation_percent:
-    mass: 25
-    price: 25
+  variation_percent: {mass: 25, price: 25}
+
 Фруктовые батончики:
   unit: "шт"
   price: 1.29
   mass: 1
-  variation_percent:
-    mass: 0
-    price: 10
+  variation_percent: {mass: 0, price: 10}
+
 Гренки со вкусом сыра:
   unit: "г"
   price: 1.39
   mass: 100
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 10, price: 15}
+
 Семечки подсолнечные жареные:
   unit: "г"
   price: 2.49
   mass: 250
-  variation_percent:
-    mass: 30
-    price: 25
+  variation_percent: {mass: 30, price: 25}
+
 Попкорн солёный:
   unit: "г"
   price: 1.69
   mass: 90
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 10, price: 15}
+
 Снеки кукурузные со вкусом бекона:
   unit: "г"
   price: 1.99
   mass: 120
-  variation_percent:
-    mass: 20
-    price: 15
+  variation_percent: {mass: 20, price: 15}
+
 Микс сухофруктов:
   unit: "г"
   price: 5.49
   mass: 200
-  variation_percent:
-    mass: 25
-    price: 30
+  variation_percent: {mass: 25, price: 30}
+
 Чипсы овощные:
   unit: "г"
   price: 3.99
   mass: 100
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 10, price: 15}
+
 Крендельки солёные:
   unit: "г"
   price: 1.89
   mass: 150
-  variation_percent:
-    mass: 15
-    price: 20
+  variation_percent: {mass: 15, price: 20}
+
 Чечевичные чипсы:
   unit: "г"
   price: 2.99
   mass: 100
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 10, price: 15}
+
 Рисовые хлебцы:
   unit: "г"
   price: 1.49
   mass: 90
-  variation_percent:
-    mass: 10
-    price: 10
+  variation_percent: {mass: 10, price: 10}
+
 Энергетические батончики:
   unit: "шт"
   price: 1.99
   mass: 1
-  variation_percent:
-    mass: 0
-    price: 10
+  variation_percent: {mass: 0, price: 10}
+
 Кокосовые чипсы:
   unit: "г"
   price: 2.79
   mass: 100
-  variation_percent:
-    mass: 10
-    price: 15
+  variation_percent: {mass: 10, price: 15}
+
 Глазированные орехи:
   unit: "г"
   price: 4.19
   mass: 150
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
+
 Палочки с маком:
   unit: "г"
   price: 1.29
   mass: 120
-  variation_percent:
-    mass: 10
-    price: 10
+  variation_percent: {mass: 10, price: 10}
+
 Лепёшки с сыром:
   unit: "г"
   price: 2.49
   mass: 180
-  variation_percent:
-    mass: 15
-    price: 20
+  variation_percent: {mass: 15, price: 20}
+
 Мармелад жевательный:
   unit: "г"
   price: 1.99
   mass: 150
-  variation_percent:
-    mass: 10
-    price: 20
+  variation_percent: {mass: 10, price: 20}
+
+Вафли Черноморские:
+  unit: "г"
+  price: 1.2
+  mass: 87
+  variation_percent: {mass: 0, price: 10}

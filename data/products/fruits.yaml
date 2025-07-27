@@ -2,206 +2,154 @@
   unit: "кг"
   price: 3.50
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 40
+  variation_percent: {mass: 30, price: 40}
 
 Бананы:
   unit: "кг"
   price: 4.69
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Апельсины:
   unit: "кг"
   price: 3.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 30
+  variation_percent: {mass: 20, price: 30}
 
 Ананас:
   unit: "кг"
   price: 7.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Авокадо HASS:
   unit: "шт"
   price: 4.99
   mass: 0.25
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Арбуз:
   unit: "кг"
   price: 2.39
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 20
+  variation_percent: {mass: 30, price: 20}
 
 Виноград белый:
   unit: "кг"
   price: 19.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Виноград красный:
   unit: "кг"
   price: 27.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Гранат:
   unit: "кг"
   price: 7.50
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Грейпфрут красный:
   unit: "кг"
   price: 6.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Грейпфрут белый:
   unit: "кг"
   price: 6.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Груша Конференция:
   unit: "кг"
   price: 12.99
   mass: 1.0
-  variation_percent:
-    mass: 25
-    price: 30
+  variation_percent: {mass: 25, price: 30}
 
 Киви:
   unit: "кг"
   price: 6.49
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Лимон:
   unit: "кг"
   price: 5.90
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 30
+  variation_percent: {mass: 20, price: 30}
 
 Лайм:
   unit: "кг"
   price: 6.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 30
+  variation_percent: {mass: 20, price: 30}
 
 Мандарин:
   unit: "кг"
   price: 4.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Манго:
   unit: "кг"
   price: 11.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Нектарин:
   unit: "кг"
   price: 9.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Персик:
   unit: "кг"
   price: 9.99
   mass: 1.0
-  variation_percent:
-    mass: 25
-    price: 30
+  variation_percent: {mass: 25, price: 30}
 
 Слива красная:
   unit: "кг"
   price: 9.99
   mass: 1.0
-  variation_percent:
-    mass: 25
-    price: 30
+  variation_percent: {mass: 25, price: 30}
 
 Хурма:
   unit: "кг"
   price: 8.90
   mass: 1.0
-  variation_percent:
-    mass: 25
-    price: 30
+  variation_percent: {mass: 25, price: 30}
 
 Помело:
   unit: "кг"
   price: 7.06
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Кокос:
   unit: "кг"
   price: 8.99
   mass: 1.0
-  variation_percent:
-    mass: 20
-    price: 30
+  variation_percent: {mass: 20, price: 30}
 
 Питахайя (драконий фрукт):
   unit: "кг"
   price: 34.99
   mass: 1.0
-  variation_percent:
-    mass: 30
-    price: 30
+  variation_percent: {mass: 30, price: 30}
 
 Голубика фасованная:
   unit: "г"
   price: 12.99
   mass: 125
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}
 
 Ежевика фасованная:
   unit: "г"
   price: 24.99
   mass: 125
-  variation_percent:
-    mass: 20
-    price: 25
+  variation_percent: {mass: 20, price: 25}

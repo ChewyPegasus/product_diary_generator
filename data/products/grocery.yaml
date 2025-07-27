@@ -141,3 +141,33 @@
   price: 1.59
   mass: 0.3
   variation_percent: { mass: 10, price: 10 }
+
+Хлеб славянский:
+  unit: "кг"
+  price: 0.99
+  mass: 0.45
+  variation_percent: { mass: 0, price: 10 }
+
+Хлеб МАГ:
+  unit: "кг"
+  price: 1.26
+  mass: 0.35
+  variation_percent: { mass: 0, price: 10 }
+
+Хлеб пшеничный с отрубями:
+  unit: "кг"
+  price: 0.94
+  mass: 0.25
+  variation_percent: { mass: 10, price: 10 }
+
+Хлеб РАНАК:
+  unit: "кг"
+  price: 1.95
+  mass: 0.5
+  variation_percent: { mass: 10, price: 10 }
+
+Хлеб КУПЕЦКІ:
+  unit: "кг"
+  price: 1.27
+  mass: 0.4
+  variation_percent: { mass: 10, price: 10 }

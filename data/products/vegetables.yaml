@@ -1,6 +1,6 @@
 Картофель:
   unit: "кг"
-  price: 3.99
+  price: 1.5
   mass: 1.0
   variation_percent: {mass: 10, price: 10}
 

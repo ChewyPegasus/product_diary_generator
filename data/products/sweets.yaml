@@ -147,9 +147,33 @@
   price: 4.50
   mass: 200
   variation_percent: {mass: 10, price: 10}
-  
+
 Пирожное эклер ванильный:
   unit: "г"
   price: 1.25
   mass: 50
   variation_percent: {mass: 10, price: 10}
+
+Эскимо столичное:
+  unit: "г"
+  price: 1.59
+  mass: 80
+  variation_percent: {mass: 0, price: 10}
+
+Пломбир Каштан:
+  unit: "г"
+  price: 1.79
+  mass: 80
+  variation_percent: {mass: 0, price: 10}
+
+Мороженое 28 копеек в шоколадной глазури:
+  unit: "г"
+  price: 1.98
+  mass: 70
+  variation_percent: {mass: 0, price: 10}
+
+Пирожное Картошка Беллакт 24%:
+  unit: "г"
+  price: 1.75
+  mass: 75
+  variation_percent: {mass: 0, price: 10}

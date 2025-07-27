@@ -159,3 +159,21 @@
   price: 1.45
   mass: 1.5
   variation_percent: {mass: 0, price: 10}
+
+Напиток СПРАЙТ:
+  unit: "л"
+  price: 1.65
+  mass: 0.33
+  variation_percent: {mass: 0, price: 10}
+
+Напиток Бонаква:
+  unit: "л"
+  price: 2.9
+  mass: 0.5
+  variation_percent: {mass: 0, price: 10}
+
+Вода Your Water:
+  unit: "л"
+  price: 1.15
+  mass: 1
+  variation_percent: {mass: 0, price: 10}

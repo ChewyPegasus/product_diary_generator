@@ -2,190 +2,148 @@
   unit: "г"
   price: 2.50
   mass: 70
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 8, price: 15}
 
 Петрушка свежая:
   unit: "г"
   price: 1.91
   mass: 70
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 12, price: 18}
 
 Укроп:
   unit: "г"
   price: 1.91
   mass: 70
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 9, price: 22}
 
 Руккола:
   unit: "г"
   price: 4.30
   mass: 60
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 11, price: 17}
 
 Шпинат свежий:
   unit: "г"
   price: 3.99
   mass: 50
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 13, price: 19}
 
 Базилик:
   unit: "г"
   price: 6.00
   mass: 100
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 7, price: 21}
 
 Кинза (кориандр):
   unit: "г"
   price: 4.00
   mass: 50
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 10, price: 16}
 
 Мята перечная:
   unit: "г"
   price: 5.00
   mass: 30
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 14, price: 23}
 
 Мелисса:
   unit: "г"
   price: 5.50
   mass: 30
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 9, price: 18}
 
 Тимьян:
   unit: "г"
   price: 2.39
   mass: 15
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 12, price: 20}
 
 Чабер:
   unit: "г"
   price: 5.18
   mass: 50
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 8, price: 14}
 
 Салат листовой (латук):
   unit: "г"
   price: 2.00
   mass: 100
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 15, price: 19}
 
 Салат микс (укроп+петрушка+лук):
   unit: "г"
   price: 2.44
   mass: 100
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 10, price: 24}
 
 Щавель:
   unit: "г"
   price: 2.50
   mass: 100
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 13, price: 17}
 
 Любисток:
   unit: "г"
   price: 2.50
   mass: 100
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 11, price: 22}
 
 Салат Айсберг:
   unit: "г"
   price: 3.00
   mass: 150
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 9, price: 16}
 
 Салат Лола Роса:
   unit: "г"
   price: 1.09
   mass: 1
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 7, price: 13}
 
 Розмарин:
   unit: "г"
   price: 5.18
   mass: 30
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 12, price: 21}
 
 Орегано:
   unit: "г"
   price: 5.00
   mass: 25
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 14, price: 18}
 
 Шнитт-лук:
   unit: "г"
   price: 3.50
   mass: 50
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 10, price: 15}
 
 Шпинат флора-пак:
   unit: "г"
   price: 4.99
   mass: 60
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 13, price: 20}
 
 Лавровый лист свежий:
   unit: "г"
   price: 7.00
   mass: 20
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 8, price: 24}
 
 Тархун (эстрагон):
   unit: "г"
   price: 4.00
   mass: 20
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 11, price: 19}
 
 Петрушка кучерявая:
   unit: "г"
   price: 2.00
   mass: 50
-  variation_percent:
-    mass: 20
-    price: 20
+  variation_percent: {mass: 12, price: 17}
+
+Ассорти к мясу:
+  unit: "г"
+  price: 3.27
+  mass: 60
+  variation_percent: {mass: 2, price: 7}
