@@ -113,7 +113,13 @@ class FamilySimulator:
             base_info = self.products_db[product_to_receive]
             # Получаем небольшое количество продукта
             amount_received = round(base_info['mass'] * random.uniform(0.5, 1.5), 2)
-            source = random.choice(["в подарок", "из личного подсобного хозяйства"])
+            r = random.random()
+            if r < 0.1:
+                source = "из личного подсобного хозяйства"
+            elif r < 0.2:
+                source = "в подарок"
+            else:
+                source = "куплено ранее"
             
             print(f"\nПолучен продукт: {amount_received} {base_info['unit']} '{product_to_receive}' ({source}).")
 
@@ -142,7 +148,8 @@ class FamilySimulator:
                 var_percents = base_info["variation_percent"]
                 [unit_price, unit_mass] = self._get_random_values(base_info, var_percents)
                 
-                bought_mass = round(quantity_to_buy * unit_mass, 2)
+                # quantity_to_buy * 
+                bought_mass = round(unit_mass, 2)
                 # GOIDA * bought_mass
                 total_price = round(unit_price, 2) if base_info['unit'] != 'шт' else round(unit_price * quantity_to_buy, 2)
 
@@ -168,9 +175,12 @@ class FamilySimulator:
             print(f"--- День {day} ({current_date_str}) ---")
 
             # 1. Потребление (завтрак, обед и ужин)
-            self.consume_products("breakfast", current_date_str)
-            self.consume_products("lunch", current_date_str)
-            self.consume_products("dinner", current_date_str)
+            for _ in range(random.randint(2, 3)):
+                self.consume_products("breakfast", current_date_str)
+            for _ in range(random.randint(2, 3)):
+                self.consume_products("lunch", current_date_str)
+            for _ in range(random.randint(2, 3)):
+                self.consume_products("dinner", current_date_str)
             
             # 2. Случайное получение продуктов (не покупка)
             self.receive_products(current_date_str)

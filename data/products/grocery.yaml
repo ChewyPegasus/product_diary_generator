@@ -84,8 +84,8 @@
 
 Овсяные хлопья:
   unit: "г"
-  price: 1.16
-  mass: 200
+  price: 1
+  mass: 500
   variation_percent: { mass: 10, price: 10 }
 
 Молоко 2%:

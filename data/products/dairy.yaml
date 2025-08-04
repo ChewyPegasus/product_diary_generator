@@ -122,19 +122,19 @@
   unit: "г"
   price: 0.85
   mass: 40
-  variation_percent: {mass: 10, price: 20}
+  variation_percent: {mass: 0, price: 10}
 
 Творожный сырок "Feelin" манго 20%:
   unit: "г"
   price: 0.85
   mass: 40
-  variation_percent: {mass: 10, price: 20}
+  variation_percent: {mass: 0, price: 10}
 
 Творожный сырок "Feelin" кокос 20%:
   unit: "г"
   price: 0.85
   mass: 40
-  variation_percent: {mass: 10, price: 20}
+  variation_percent: {mass: 0, price: 10}
 
 Пирожное творожное "Беллакт" черника 23%:
   unit: "г"

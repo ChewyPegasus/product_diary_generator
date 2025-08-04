@@ -124,10 +124,10 @@
   mass: 1.0
   variation_percent: {mass: 10, price: 10}
 
-Перец чили зелёный:
-  unit: "шт"
-  price: 52.99
-  mass: 0.1
+Перец чили красный:
+  unit: "г"
+  price: 8
+  mass: 50
   variation_percent: {mass: 10, price: 10}
 
 Томат черри (на ветке):
