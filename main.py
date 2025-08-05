@@ -104,6 +104,43 @@ class FamilySimulator:
                 
                 # Уменьшаем остаток в трекере начальных запасов
                 self.initial_pantry_tracker[product_name] -= amount_to_log
+    
+    def consume_random_products(self, current_date):
+        """Симулирует случайное потребление отдельных продуктов (не по рецепту)."""
+        # Выбираем случайное количество продуктов для потребления (1-3)
+        products_to_consume = random.sample(list(self.products_db.keys()), k=random.randint(1, 3))
+        
+        for product_name in products_to_consume:
+            # Проверяем, был ли этот продукт когда-либо куплен
+            if product_name in self.purchased_product_names:
+                continue
+            
+            # Проверяем, есть ли он в начальных запасах
+            available_from_initial = self.initial_pantry_tracker.get(product_name, 0)
+            
+            if available_from_initial > 0:
+                # Потребляем небольшое случайное количество
+                base_info = self.products_db[product_name]
+                max_consume = min(available_from_initial, base_info['mass'] * 0.3)  # Не более 30% от стандартной упаковки
+                amount_to_consume = round(random.uniform(0.01, max_consume), 2)
+                
+                if amount_to_consume > 0:
+                    # Уменьшаем запасы в реальной кладовой
+                    self.pantry[product_name] = self.pantry.get(product_name, 0) - amount_to_consume
+                    
+                    self.all_consumptions.append({
+                        "Дата": current_date,
+                        "Название продукта": product_name,
+                        "Откуда получено": random.choice(CONSUMPTION_SOURCES),
+                        "Сколько потреблено": amount_to_consume,
+                        "Единица измерения": base_info['unit'],
+                        "Примечание": "отдельное потребление"
+                    })
+                    
+                    # Уменьшаем остаток в трекере начальных запасов
+                    self.initial_pantry_tracker[product_name] -= amount_to_consume
+                    
+                    print(f"Случайно потребили: {amount_to_consume} {base_info['unit']} '{product_name}'")
 
     def receive_products(self, current_date):
         """Симулирует получение продуктов не через покупку (подарок, свой урожай)."""
@@ -182,7 +219,10 @@ class FamilySimulator:
             for _ in range(random.randint(2, 3)):
                 self.consume_products("dinner", current_date_str)
             
-            # 2. Случайное получение продуктов (не покупка)
+            # 2. Случайное потребление и получение
+            for _ in range(random.randint(2, 3)):
+                self.consume_random_products(current_date_str)
+
             self.receive_products(current_date_str)
 
             # 3. Покупки (теперь каждый день)
